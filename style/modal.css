@@ -1,0 +1,63 @@
+/*modal*/
+
+#mask {
+    position: absolute;
+    z-index: 9000;
+    background-color: #000000;
+    display: none;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+#boxes .window {
+    position: absolute;
+    display: none;
+    z-index: 9999;
+    width: 80vw;
+    top: 5vh;
+    left: 10vw;
+    height: 100%;
+}
+
+.container-modal {
+    background: linear-gradient(rgba(255, 255, 255, 0.336), rgba(15, 15, 15, 0.712)100%), url("../img/filme-logo.jpg");
+    background-size: cover;
+    border-radius: 8px;
+    padding: 5%;
+    height: 90%;
+}
+
+.container-modal .row {
+    width: 35%;
+}
+
+.container-modal .close {
+    display: block;
+    float: right;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.container-modal .title-modal {
+    font-size: 35px;
+    margin-top: 75%;
+}
+
+.container-modal .description-modal {
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 700px) {
+    .container-modal .row {
+        width: 100%;
+    }
+    .container-modal .title-modal {
+        font-size: 17px;
+        margin-top: 5%;
+    }
+    .container-modal .description-modal {
+        font-size: 14px;
+    }
+}

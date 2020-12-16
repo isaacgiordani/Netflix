@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Isaac Rocha">
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="style/main.css">
+    <!-- responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+    <!-- modal -->
+    <link rel="stylesheet" href="style/modal.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>MyNetflix</title>
+    <link rel="sortcut icon" href="img/icon.png" type="image/x-icon" />
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <img class="logo" src="img/logo.png" alt="NETFLIX" srcset="">
+
+            <nav class="navcenter" aria-label="Site menu center">
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+            </nav>
+
+            <nav class="navright" aria-label="Site menu right">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-gift"></i></a>
+                <a href="#"><i class="fas fa-bell"></i></a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">
+                    THE MANDALORIAN
+                </h3>
+                <p class="descricao">
+                    A saga de um guerreiro solitário, que também é um mercenário e pistoleiro, viajando pelos territórios esquecidos e marginais do espaço, logo após a queda do Império e antes da criação da temida Primeira Ordem.
+                </p>
+
+                <div class="botoes">
+                    <a href="https://www.disneyplus.com" role="button" class="botao">
+                        <i class="fas fa-play"></i> ASSISTIR AGORA
+                    </a>
+                    <a href="#dialog" role="button" name="modal" class="botao">
+                        <i class="fas fa-info-circle"></i> MAIS INFORMAÇÕES
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img class="box-filme" src="img/poster-2019-m.jpg" alt="The Mandalorian" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/poster-2020-eh.jpg" alt="Enola Holmes" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/poster-2020-tog.jpg" alt="The Old Guard" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/poster-2017-ag.jpg" alt="American Gods" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/poster-2017-d.jpg" alt="Dark" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/poster-2016-st.jpg" alt="Stranger Things" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/poster-2013-vikings.jpg" alt="Vikings" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/poster-2011-got.jpg" alt="GOT" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/poster-2011-l.jpg" alt="Limitless" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/poster-2011-it.jpg" alt="In Time" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/poster-2008-bb.jpg" alt="Breaking Bad" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/poster-2007-n.jpg" alt="Naruto" srcset=""></div>
+            <div class="item"><img class="box-filme" src="img/poster-2004-tbe.jpg" alt="TBE" srcset=""></div>
+        </div>
+    </div>
+
+    <div id="boxes">
+        <div id="dialog" class="window">
+            <div class="container-modal">
+                <i class="close far fa-times-circle"></i>
+                <div class="row">
+                    <p class="title-modal">THE MANDALORIAN</p>
+                    <p class="description-modal">
+                        O Mandaloriano e a Criança continuam sua jornada, enfrentando inimigos e reunindo aliados enquanto fazem seu caminho através de uma galáxia perigosa na era tumultuada após o colapso do Império Galáctico.
+                    </p>
+                    <a href="https://www.disneyplus.com" role="button" class="botao">
+                        <i class="fas fa-play"></i> ASSISTIR
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="mask"></div>
+    </div>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/826caeeeeb.js" crossorigin="anonymous"></script>
+
+    <!-- owl js -->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+@media screen and (max-width: 750px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .navright {
+        display: none;
+    }
+    .filme-principal .container {
+        width: 90%;
+    }
+    .filme-principal .titulo {
+        margin-top: 10px;
+        font-size: 30px;
+        font-family: "Helvetica Neue", 'Trebuchet MS';
+    }
+    .botao {
+        margin-top: 5px;
+        width: 260px;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .filme-principal .descricao {
+        width: 48%
+    }
+}
